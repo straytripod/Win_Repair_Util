@@ -1,0 +1,37 @@
+# PowerShell files
+*.ps1xml
+*.psd1
+*.psm1
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+*~
+*.*.swp
+*.dll
+*.pdb
+*.exe
+
+# PSCore editor files
+.vscode
+.history
+
+# Local Pester files
+Pester.xml
+
+# PSDeploy files
+.psdeploy
+.psdeploycache
+.psdeployhistory
+
+# Nuget
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Ignore all log files
+*.log
