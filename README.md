@@ -318,3 +318,7 @@ It does **not**:
 - Repair registry corruption unrelated to servicing
 
 That’s why SFC always comes next.
+
+---
+
+This PowerShell utility automates advanced Windows repair using DISM and SFC. It intelligently detects your OS, attempts repairs from the local component store or provided install media, and guides you on obtaining matching Microsoft ISOs when needed. Designed for robustness, it logs all actions and generates a detailed task report, making it an essential tool for maintaining Windows 10, Windows 11, and supported Windows Server versions.
